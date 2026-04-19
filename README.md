@@ -1,11 +1,13 @@
-# NexSched: AI-Driven Enterprise Meeting Orchestration
+## AI Appointment Assistant: Natural Language Scheduling Workflow
 
-NexSched is a production-grade automation suite designed to eliminate the friction of manual appointment scheduling. By leveraging **Gemini 2.5 Flash** for natural language understanding and **Make.com** for workflow orchestration, this system transforms unstructured messages from communication platforms into structured, verified calendar events.
+This project is a functional automation system designed to bridge the gap between casual chat (Slack) and formal scheduling (Google Calendar). It uses **Gemini 2.5 Flash** to interpret intent and **Make.com** to handle the heavy lifting of data integration.
 
+## 💡 The Core Idea
+I built this to solve a specific problem: the back-and-forth of "When are you free?" By creating a "Grounding Database" in Google Sheets, the AI knows my specific availability (like class times or study blocks) and can instantly tell a requester if a slot works or not.
 
 
 ## 🌟 The Value Proposition
-Traditional schedulers require users to fill out rigid forms. NexSched allows clients and partners to request meetings in plain English. The system intelligently:
+Traditional schedulers require users to fill out rigid forms. Whereas it allows clients and partners to request meetings in plain English. The system intelligently:
 * **Parses Intent:** Extracts names, emails, dates, and times from raw text.
 * **Contextual Verification:** Cross-references requests against a dynamic "Grounding Database" (Google Sheets) to ensure no conflicts with existing obligations or "no-fly" zones.
 * **Human-in-the-Loop (HITL):** Provides a secure confirmation gateway before any event is finalized on the executive calendar.
